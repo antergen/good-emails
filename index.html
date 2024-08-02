@@ -56,24 +56,11 @@
 </head>
 <body>
     <div class="container">
-        <h1>Ваш красивый слоган</h1>
-        <p>Здесь располагается текст, описывающий ваш продукт или услугу. Он должен быть кратким, но информативным, чтобы привлечь внимание посетителей.</p>
-        <a href="#" class="btn" id="subscribeBtn">Подписаться</a>
+        <h1>Emails you want to get.</h1>
+        <p>Every week you will recieve an email to brighten your day</p>
+        <a href="https://buy.stripe.com/5kA02TcAy6P48rSdQQ" class="btn">Subscribe</a>
     </div>
 
-    <script src="https://js.stripe.com/v3/"></script>
-    <script>
-        var stripe = Stripe('your_stripe_publishable_key');
-        var subscribeBtn = document.getElementById('subscribeBtn');
-        
-        subscribeBtn.addEventListener('click', function() {
-            // Здесь нужно добавить логику для создания сессии Stripe Checkout
-            // и перенаправления пользователя на страницу оплаты
-            // Пример:
-            // stripe.redirectToCheckout({
-            //     sessionId: 'YOUR_SESSION_ID'
-            // });
-        });
-    </script>
+  
 </body>
 </html>
